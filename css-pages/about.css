@@ -54,3 +54,24 @@ p
     padding-right:30px;
 }
 
+
+
+/* @media screen and (min-width: 769px) {
+laptop
+
+} */
+/* 
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    tablet
+    /* STYLES HERE
+ } */
+
+
+@media screen and (max-device-width: 480px) {
+/*neeche 480px se*/
+.h1
+{
+    color:orangered;
+}
+
+}
