@@ -56,22 +56,236 @@ p
 
 
 
-/* @media screen and (min-width: 769px) {
-laptop
+ @media (min-width: 770px) {
+    nav img{
 
-} */
-/* 
-@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
-    tablet
-    /* STYLES HERE
- } */
+        /* width:100px; */
+        height:100px;
+        margin-left: 10px;
+        
+        }
+        .head
+        {
+            height: 100vh;
+            width: 100%;
+            background: url("1.jpg")no-repeat;
+            background-size: cover;
+            background-position: center;    
+        
+        
+        }
+        h1
+        {
+        text-align: center;
+        font-family:Open Sans;
+        font-size: 38px;
+        color:#13aaeb;
+        margin-bottom: 10px;
+        }
+        .main
+        {
+            margin-top: 100vh;
+            width: 100%;
+            /* height: 80vh; */
+            color:#ffff;
+            background:rgb(0, 0, 0,.7);
+            text-align: center; 
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+        
+        }
+        p
+        {
+            text-align:justify;
+        }
+        .par
+        {
+            padding-left:30px;
+            padding-right:30px;
+        }
 
 
-@media screen and (max-device-width: 480px) {
-/*neeche 480px se*/
-.h1
-{
-    color:orangered;
-}
+} 
 
-}
+@media (min-device-width: 580px) and (max-device-width: 770px) { 
+
+    nav img{
+        /* width:100px; */
+        
+        height: 100px;;
+        margin-left: 10px;
+        
+        }
+        .head
+        {
+            height: 70vh;
+            width: 100%;
+            background: url("1.jpg")no-repeat;
+            background-size:contain;
+            background-position:center;
+        
+        }
+        /* h1
+        {
+        font-size: 38px;
+        color:#13aaeb;
+        /* margin-bottom:1500px; 
+        } */
+        .h11
+        {
+            text-align: center;
+            font-family:Open Sans;
+            width:100%;
+            height:100px;
+            position: relative;
+            bottom: 120px;
+        }
+        .main
+        {
+            margin-top: 70vh;
+            width: 100%;
+            /* height: 80vh; */
+            color:#ffff;
+            background:rgb(0, 0, 0,.7);
+            text-align: center; 
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+        
+        }
+        p
+        {
+            text-align:justify;
+        }
+        .par
+        {
+            padding-left:30px;
+            padding-right:30px;
+        }
+ 
+} 
+
+
+
+
+
+@media (max-device-width: 580px) {
+/* neeche 580px se */
+    nav img{    
+    height: 100px;;
+    margin-left: 10px;
+    
+    }
+    .head
+    {
+        height: 60vh;
+        width: 100%;
+        background: url("1.jpg")no-repeat;
+        background-size:contain;
+        background-position:center;
+    
+    }
+
+    .h11
+    {
+        text-align: center;
+        font-family:Open Sans;
+        width:100%; 
+    }
+    .h11 h1
+    {
+        font-size: 38px;
+        position: relative;
+        bottom: 120px;
+    }
+    .main
+    {
+        margin-top: 80vh;
+        width: 100%;
+        /* height: 80vh; */
+        color:#ffff;
+        background:rgb(0, 0, 0,.7);
+        text-align: center; 
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-50%);
+    
+    }
+    p
+    {
+        text-align:justify;
+    }
+    .par
+    {
+        padding-left:30px;
+        padding-right:30px;
+    }
+
+
+
+} 
+
+
+
+
+@media (max-device-width: 383px) {
+    /* neeche 580px se */
+        nav img{    
+        height: 100px;;
+        margin-left: 10px;
+        
+        }
+        .head
+        {
+            height: 60vh;
+            width: 100%;
+            background: url("1.jpg")no-repeat;
+            background-size:contain;
+            background-position:center;
+        
+        }
+    
+        .h11
+        {
+            text-align: center;
+            font-family:Open Sans;
+            width:100%; 
+        }
+        .h11 h1
+        {
+            font-size: 38px;
+            position: relative;
+            bottom: 190px;
+        }
+        .main
+        {
+
+            margin-top: 90vh;
+            width: 100%;
+            /* height: 80vh; */
+            color:#ffff;
+            background:rgb(0, 0, 0,.7);
+            text-align: center; 
+            position: absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+        
+        }
+        p
+        {
+            text-align:justify;
+        }
+        .par
+        {
+            padding-left:30px;
+            padding-right:30px;
+        }
+    
+    
+    
+    } 
