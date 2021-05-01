@@ -4,57 +4,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallary</title>
+    <title>Photo Gallery</title>
     <link rel="stylesheet" href="../css-pages/gallery.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
 </head>
 <body>
-    
+
     <nav>
         <a href="../index.html"><img src="../images/about1.png" alt=""></a> 
      
        </nav>
-    <header>
-        
-        <h1>Photo Gallery</h1>
-    </header>
-    <main>
-       
+       <h1 class="heading">Photo Gallery</h1>
 
-        <div class="gallery">
-            <img src="../css-pages/gallery/1.jpg" alt="">
+    <div class="container-fluid">
+        <div class="row mt-4">
+
+            <div class="item col-xs-4 col-sm-6 col-md-4 mb-3">
+                <a href="../css-pages/gallery/1.jpg" class="fancybox" data-fancybox="gallery1">
+                <img src="../css-pages/gallery/1.jpg" width="100%" height="100%" alt="Not Found!">
+                </a>
+            </div>
+            
+            <div class="item col-xs-4 col-sm-6 col-md-4 mb-3">
+                <a href="../css-pages/gallery/2.png" class="fancybox" data-fancybox="gallery1">
+                <img src="../css-pages/gallery/2.png" width="100%" height="100%" alt="Not Found!">
+                </a>
+            </div>
+
+            <div class="item col-xs-4 col-sm-6 col-md-4 mb-3">
+                <a href="../css-pages/gallery/3.png" class="fancybox" data-fancybox="gallery1">
+                <img src="../css-pages/gallery/3.png" width="100%" height="100%" alt="Not Found!">
+                </a>
+            </div>
+
+            <div class="item col-xs-4 col-sm-6 col-md-4 mb-3">
+                <a href="../css-pages/gallery/4.png" class="fancybox" data-fancybox="gallery1">
+                <img src="../css-pages/gallery/4.png" width="100%" height="100%" alt="Not Found!">
+                </a>
+            </div>
+
+            <div class="item col-xs-4 col-sm-6 col-md-4 mb-3">
+                <a href="../css-pages/gallery/5.png" class="fancybox" data-fancybox="gallery1">
+                <img src="../css-pages/gallery/5.png" width="100%" height="100%" alt="Not Found!">
+                </a>
+            </div>
+
+            <div class="item col-xs-4 col-sm-6 col-md-4 mb-3">
+                <a href="../css-pages/gallery/9.jpg" class="fancybox" data-fancybox="gallery1">
+                <img src="../css-pages/gallery/9.jpg" width="100%" height="100%" alt="Not Found!">
+                </a>
+            </div>
+
+            <div class="item col-xs-4 col-sm-6 col-md-4 mb-3">
+                <a href="../css-pages/gallery/7.jpg" class="fancybox" data-fancybox="gallery1">
+                <img src="../css-pages/gallery/7.jpg" width="100%" height="100%" alt="Not Found!">
+                </a>
+            </div>
+
+            <div class="item col-xs-4 col-sm-6 col-md-4 mb-3">
+                <a href="../css-pages/gallery/8.jpg" class="fancybox" data-fancybox="gallery1">
+                <img src="../css-pages/gallery/8.jpg" width="100%" height="100%" alt="Not Found!">
+                </a>
+            </div>
+
+            <div class="item col-xs-4 col-sm-6 col-md-4 mb-3">
+                <a href="../css-pages/gallery/6.jpg" class="fancybox" data-fancybox="gallery1">
+                <img src="../css-pages/gallery/6.jpg" width="100%" height="100%" alt="Not Found!">
+                </a>
+            </div>
+
+
+            
+            
         </div>
 
-        <div class="gallery">
-            <img src="../css-pages/gallery/2.png" alt="">
-        </div>
-
-        <div class="gallery">
-            <img src="../css-pages/gallery/3.png" alt="">
-        </div>
-
-        <div class="gallery">
-            <img src="../css-pages/gallery/4.png" alt="">
-        </div>  
-
-        <div class="gallery">
-            <img src="../css-pages/gallery/5.png" alt="">
-        </div>  
-
-        <div class="gallery">
-            <img src="../css-pages/gallery/6.jpg" alt="">
-        </div>  
-
-        <div class="gallery">
-            <img src="../css-pages/gallery/7.jpg" alt="">
-        </div>  
-
-        <div class="gallery">
-            <img src="../css-pages/gallery/8.jpg" alt="">
-        </div>  
 
 
-    </main>    
+    </div>
     
+    <script>
+
+        lightGallery(document.querySelector('.item'));
+    </script>
 
 </body>
 </html>
