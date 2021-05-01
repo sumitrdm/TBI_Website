@@ -7,16 +7,17 @@ body
     padding: 0;
     background: linear-gradient(90deg,#163153 50%,#fff 50%);
     display: grid;
-    place-items: center;
+    /* place-items: center; */
     font-family: "Roboto",sans-serif;
     height: 100vh;
 }
 nav img
 {
     height:100px;
-    position: relative;
-    right:200px;
-    bottom:40px;    
+    margin-left: 10px;
+
+
+      
 }
 .contact-from
 {
