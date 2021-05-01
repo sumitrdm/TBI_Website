@@ -5,10 +5,10 @@ body
     font-family: Verdana ,sans-serif;
     box-sizing: border-box; 
     height: 100vh;
-    background: url("1.jpg");
+    background-image: url("1.jpg");
     background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size:cover;
+    background-position:center;
         /* background-attachment: fixed;     */
 
 }
@@ -51,3 +51,28 @@ p
 }
 
 
+
+@media (max-width:900px)
+{
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana ,sans-serif;
+    box-sizing: border-box; 
+    height: 100vh;
+    background-image: url("1.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+        /* background-attachment: fixed;     */
+
+}
+.h11 h1
+{
+    margin-top: 65vh;
+}
+
+
+
+}
