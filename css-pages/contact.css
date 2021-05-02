@@ -5,7 +5,7 @@ body
 
     margin: 0;
     padding: 0;
-    background: linear-gradient(90deg,#163153 50%,#fff 50%);
+    background: linear-gradient(90deg,#13aaeb 50%,#fff 50%);
     display: grid;
     /* place-items: center; */
     font-family: "Roboto",sans-serif;
