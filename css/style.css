@@ -21,12 +21,12 @@
      scroll-behavior: smooth;
 }
  body {
-     color: #666666;
-     font-size: 14px;
-     font-family: 'Roboto', sans-serif;
-     line-height: 1.80857;
-     font-weight: normal;
-     overflow-x: hidden;
+    background-color: #8fd9a8;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden;
 }
  a {
      color: #1f1f1f;
@@ -1286,6 +1286,8 @@ box-shadow: #ddd 0px 0px 0px 0px;
     position: relative;
     margin-top: 20px;
     box-shadow: #4d4646ab 0px 0px 15px 1px;
+    height: 200px;
+
 }
 .box_bg_img .box_my figure {
     margin: 0;
@@ -1508,14 +1510,16 @@ border-radius:50px;
 }
  .footer h2 {
     color: #fff;
+    font-weight:500;
      font-size: 40px;
      line-height: 40px;
      text-align: left;
+     padding-bottom: 10px;
 }
  .footer span {color: #fff; font-size: 17px; line-height: 28px; padding-bottom: 30px; display: block;}
  .footer .address h3 {
-     color: #fff;
-font-size: 30px;
+color: #fff;
+font-size: 32px;
 line-height: 35px;
 font-weight: 500;
 padding-bottom: 20px;
