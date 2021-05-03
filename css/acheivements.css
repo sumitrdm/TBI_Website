@@ -1686,21 +1686,23 @@ ul.loca li a {
 /*My cSS*/
 
 .container
-/* {
+{
     display: flex;
-    justify-content: center; */
-
-{    align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 .box
 {
     text-align: center;
     border-radius: 10px;
-    width: 25%;
+    /* width: 25%; */
     /* height:400px; */
     padding: 20px 25px;
     box-sizing: border-box;
-    margin: 30px;
+    /* margin-right: 20px;*/
+    /* margin-bottom: 20px;
+    margin-left: 20px;  */
+    margin: 20px;
     box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
     position: relative;
     background-color: #fff;
@@ -1709,9 +1711,8 @@ ul.loca li a {
 .box h1
 {
 
-    font-size: 25px;
+    font-size: 20px;
     font-weight:100;
-    letter-spacing: 0.2;
     margin: 0;
     color:#02075d;
     text-align: center;   
@@ -1721,6 +1722,7 @@ ul.loca li a {
 {
     /* padding:10px; */
     text-align:justify;
+    font-style: 16px;
 }
 .imaged{
     height: 90px;
