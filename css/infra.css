@@ -1004,38 +1004,7 @@ background-repeat: no-repeat;
 }
 
 
-.mean-last {
-  display: inline-block !important;
-/* background: #0f052f; */
-margin: 0 !important;
-padding: 30px 36px 30px 16px;
-/* float: right; */
-margin-right: 110px !important;
-width: 24%;
-} */
 
-
-.mean-last a {
-   padding: 0px 20px;
-   color: #fff;
-   font-size: 16px;
-}
-
-
-
-
-.mean-last::before {
-   width: 44px;
-height: 88px;
-margin-left: -51px;
-   /* background: url(../images/top_arrow2.png); */
-   display: block;
-   content: "";
-   position: absolute;
-   top: 0;
- 
-background-repeat: no-repeat;
-} 
 
 .padding_left0 {
    padding-left: 0px;

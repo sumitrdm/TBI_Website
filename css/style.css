@@ -10,9 +10,9 @@
  @import url(normalize.css);
  @import url(meanmenu.css);
  @import url(owl.carousel.min.css);
- @import url(css/slick.css);
- @import url(css/jquery-ui.css);
- @import url(css/nice-select.css);
+ @import url(slick.css);
+ @import url(jquery-ui.css);
+ @import url(nice-select.css);
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
  * {
      box-sizing: border-box !important;
@@ -1003,39 +1003,6 @@ background-repeat: no-repeat;
 }
 
 
-.mean-last {
-   display: inline-block !important;
-/* background: #0f052f; */
-margin: 0 !important;
-padding: 30px 36px 30px 16px;
-/* float: right; */
-margin-right: 110px !important;
-width: 24%;
-} */
-
-
-.mean-last a {
-    padding: 0px 20px;
-    color: #fff;
-    font-size: 16px;
-}
-
-
-
-
-.mean-last::before {
-    width: 44px;
-height: 88px;
-margin-left: -51px;
-    /* background: url(../images/top_arrow2.png); */
-    display: block;
-    content: "";
-    position: absolute;
-    top: 0;
-  
-background-repeat: no-repeat;
-} 
-
  .padding_left0 {
     padding-left: 0px;
 }
@@ -1688,3 +1655,65 @@ padding-bottom: 20px;
 
 
 
+/*My responsiveness*/
+@media (min-width:1006px) and (max-width:1175px)
+{
+
+
+
+   .header_information
+   {
+       background-color: #02075d;
+       position: absolute;
+       left: 10px;
+       bottom:10px;
+       width: 100%;
+       font-family: 'Roboto', sans-serif;
+       
+   } 
+   .logo{
+       width: 150px;
+       height: 100px;
+   }
+
+   .header_information .menu-area .limit-box .main-menu .menu-area-main li a
+   {
+     
+       margin: 0;
+       padding: 0;
+      position: relative;
+       
+   } 
+   
+}
+
+
+@media (min-width:762px) and (max-width:1006px)
+{
+   .header_information
+   {
+       background-color: #02075d;
+       position: absolute;
+       left: -10%;
+       width:2000px;
+       font-family: 'Roboto', sans-serif;
+       
+   } 
+   .logo{
+
+       width: 150px;
+       height: 100px;
+   }
+
+   .header_information .menu-area .limit-box .main-menu .menu-area-main li a
+   {
+     
+       margin: 0;
+       padding: 0;
+      position: relative;
+       
+   } 
+
+
+
+}

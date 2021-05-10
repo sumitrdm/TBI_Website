@@ -9,7 +9,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
   <!-- site metas -->
-  <title>About US</title>
+  <title>Apply Now</title>
   <meta name="keywords" content="">
   <meta name="description" content="">
   <meta name="author" content="">
@@ -18,7 +18,7 @@
   <!-- bootstrap css -->
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- style css -->
-  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/apply.css">
   <!-- Responsive-->
   <link rel="stylesheet" href="css/responsive.css">  
   <!-- Scrollbar Custom CSS -->
@@ -65,17 +65,17 @@
                       <li> <a href="team.html">Team</a> </li>
                       <li> <a href="services.html">Services</a> </li>
                       <li> <a href="infrastructure.html">Infrastucture</a> </li>
-                      <li> <a href="Acheivements.html">Acheivements</a> </li>
+                      <li> <a href="acheivements.html">Acheivements</a> </li>
                       <li> <a href="apply.html">Apply now</a> </li>
                       <li> <a href="contact.html">Contact us</a> </li>
                       <li> <a href="gallary.html">Gallery</a> </li>
-                      <!-- <li> <a href="events.html">Events</a> </li> -->
+                      <!-- <li><a href="events.html">Events</a></li> -->
+
                       </ul>
                    </nav>
                  </div>
                </div> 
-               <div class="mean-last">
-                <a href="#"></a> <a href="#"></a></div>              
+                          
              </div>
            </div>
          </div>
@@ -83,20 +83,99 @@
      </div>
      <!-- end header inner -->
 
- <div>
+    </div>
 
  </header>
 
 
 
-<!--my html--> 
+ <div class="conti">
+  <div class="container">
+    
+  
+      <div class="row">
+       <div class="col-lg-7 col-xg-7 col-md-7 col-sm-12">
+           <div class="contact-from">
+           <h5>Apply Us!</h5>
+           <h2>Tell Us About Yourself!</h2>
+           <form action="#" method="post" onsubmit="return check();" role="form" class="php-email-form">
+            <div class="row">
+                   <div class="col-md-6 col-lg-6 col-xg-6 col-sm-12">
+                   <div class="single-form">
+  
+                       <input type="text" placeholder="Your Name" id="name">
+                   </div>
+                   </div>
+  
+                   <div class="col-md-6 col-lg-6 col-xg-6 col-sm-12">
+                       <div class="single-form">
+   
+                           <input type="text" placeholder="email" id="email">
+                       </div>
+                       </div>
+  
+                       <div class="col-md-6 col-lg-6 col-xg-6 col-sm-12">
+                           <div class="single-form">
+       
+                               <input type="text" placeholder="College Name" id="college">
+                           </div>
+                           </div>
+  
+                           <div class="col-md-6 col-lg-6 col-xg-6 col-sm-12">
+                               <div class="single-form">
+           
+                                   <input type="text" placeholder="phone" id="phone">
+                               </div>
+                               </div>
+  
+                               <div class="col-md-12 col-lg-12 col-xg-12 col-sm-12">
+                                   <div class="single-form">
+                                       <textarea name="message" placeholder="Tell us about yourself" id="message"></textarea>
+                                   </div>
+                                   </div>
+  
+                                   <div class="col-md-12 col-lg-12 col-xg-12 col-sm-12">
+                                       <div class="single-form">
+                                        <button class="main-btn" type="submit" onclick="send(event)">Send</button>
+                                       </div>
+                                       </div>
+               
+       
+                                       
+                                    </div>
+  
+  
+  
+           </form>
+  
+       </div>
+   </div>
+  
+       <div class="col-lg-5 col-md-5">
+           <div class="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.607731193856!2d77.59113581505986!3d27.605688682834213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39736ce47bffc039%3A0xfe5fc3da92c6341!2sGLA%20University!5e0!3m2!1sen!2sin!4v1619814382452!5m2!1sen!2sin" 
+               width="100%"  style="border:0;" allowfullscreen="true" loading="lazy">
+           </iframe>
+           </div>
+      
+       </div>
+  
+      </div>
+  </div>
+  
+  
+  </div>
+  
+  
+  <div class="eventtxt">
+  
+    <h1>View upcoming events here from here!</h1>
+  
+  </div>
+
+
  
 
-
-
-
-
-<!--end of my html--> 
 
 
 
@@ -159,9 +238,10 @@
                 </div>
               </div>
             </div>
-          </footr>
+          </footer>
           <!-- end footer -->
           <!-- Javascript files-->
+          <script src="https://smtpjs.com/v3/smtp.js"></script>
           <script src="js/jquery.min.js"></script>
           <script src="js/popper.min.js"></script>
           <script src="js/bootstrap.bundle.min.js"></script>
@@ -174,6 +254,40 @@
 
 
           <script>
+
+function send(event) {
+        event.preventDefault();
+        var name = document.getElementById('name').value
+        var email = document.getElementById('email').value
+        var phone = document.getElementById('phone').value
+        var college = document.getElementById('college').value
+        var message = document.getElementById('message').value
+
+        var bodyy = "Name: "+name+"<br>Email: "+email+"<br>Phone: "+phone+"<br>college: "+college+"<br>Introduction: "+message;
+
+        Email.send({
+          name:document.getElementById('name').value,
+          Host : "smtp.gmail.com",
+          Username : "tbireceive@gmail.com",
+          Password : "TBITBI@123",
+          // SecureToken: "ad7ef278-7568-4171-be52-8093cf5f65e3",
+          To : "vermaajay512307@gmail.com",
+          From : document.getElementById('email').value,
+          Subject : document.getElementById('college').value,
+          //Body : document.getElementById('message').value 
+          Body: bodyy  
+        }).then(function(response){
+           if (response == 'OK') {
+               alert("Mail sent succeessfully");
+            } else {
+                throw new Error("Error: " + response.statusText);
+            }
+         });
+
+    }
+
+
+
 // This example adds a marker to indicate the position of GLA University,
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {

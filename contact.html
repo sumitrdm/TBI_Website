@@ -65,17 +65,16 @@
                       <li> <a href="team.html">Team</a> </li>
                       <li> <a href="services.html">Services</a> </li>
                       <li> <a href="infrastructure.html">Infrastucture</a> </li>
-                      <li> <a href="Acheivements.html">Acheivements</a> </li>
+                      <li> <a href="acheivements.html">Acheivements</a> </li>
                       <li> <a href="apply.html">Apply now</a> </li>
                       <li> <a href="contact.html">Contact us</a> </li>
                       <li> <a href="gallary.html">Gallery</a> </li>
-                      <!-- <li> <a href="events.html">Events</a> </li> -->
+                      <!-- <li><a href="events.html">Events</a></li> -->
                       </ul>
                    </nav>
                  </div>
                </div> 
-               <div class="mean-last">
-                <a href="#"></a> <a href="#"></a></div>              
+                          
              </div>
            </div>
          </div>
@@ -100,51 +99,51 @@
          <div class="contact-from">
          <h5>Contact Us</h5>
          <h2>Get in Touch!</h2>
-         <form>
-             <div class="row">
+         <form action="#" method="post" onsubmit="return check();" role="form" class="php-email-form">
+          <div class="row">
                  <div class="col-md-6 col-lg-6 col-xg-6 col-sm-12">
                  <div class="single-form">
 
-                     <input type="text" placeholder="Your Name">
+                     <input type="text" placeholder="Your Name" id="name">
                  </div>
                  </div>
 
                  <div class="col-md-6 col-lg-6 col-xg-6 col-sm-12">
                      <div class="single-form">
  
-                         <input type="text" placeholder="email">
+                         <input type="text" placeholder="email" id="email">
                      </div>
                      </div>
 
                      <div class="col-md-6 col-lg-6 col-xg-6 col-sm-12">
                          <div class="single-form">
      
-                             <input type="text" placeholder="subject">
+                             <input type="text" placeholder="subject" id="subject">
                          </div>
                          </div>
 
                          <div class="col-md-6 col-lg-6 col-xg-6 col-sm-12">
                              <div class="single-form">
          
-                                 <input type="text" placeholder="phone">
+                                 <input type="text" placeholder="phone" id="phone">
                              </div>
                              </div>
 
                              <div class="col-md-12 col-lg-12 col-xg-12 col-sm-12">
                                  <div class="single-form">
-                                     <textarea name="message" placeholder="Message"></textarea>
+                                     <textarea name="message" placeholder="Message" id="message"></textarea>
                                  </div>
                                  </div>
 
                                  <div class="col-md-12 col-lg-12 col-xg-12 col-sm-12">
                                      <div class="single-form">
-                                     <button type="submit" class="main-btn">Send</button>
+                                      <button class="main-btn" type="submit" onclick="send(event)">Send</button>
                                      </div>
                                      </div>
              
      
                                      
-     </div>
+                                  </div>
 
 
 
@@ -212,6 +211,14 @@
 
 
 </div>
+
+
+<div class="eventtxt">
+
+  <h1>View upcoming events here from here!</h1>
+
+</div>
+
 <!--end of my html--> 
 
 
@@ -278,6 +285,7 @@
           </footr>
           <!-- end footer -->
           <!-- Javascript files-->
+          <script src="https://smtpjs.com/v3/smtp.js"></script>
           <script src="js/jquery.min.js"></script>
           <script src="js/popper.min.js"></script>
           <script src="js/bootstrap.bundle.min.js"></script>
@@ -288,8 +296,39 @@
           <script src="js/custom.js"></script>
           <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 
-
           <script>
+      function send(event) {
+        event.preventDefault();
+        var name = document.getElementById('name').value
+        var email = document.getElementById('email').value
+        var phone = document.getElementById('phone').value
+        var subject = document.getElementById('subject').value
+        var message = document.getElementById('message').value
+
+        var bodyy = "Name: "+name+"<br>Email: "+email+"<br>Phone: "+phone+"<br>Subject: "+subject+"<br>Message: "+message;
+
+        Email.send({
+          name:document.getElementById('name').value,
+          // Host : "smtp.gmail.com",
+          // Username : "tbireceive@gmail.com",
+          // Password : "TBITBI@123",
+          SecureToken: "ad7ef278-7568-4171-be52-8093cf5f65e3",
+          To : "vermaajay512307@gmail.com",
+          From : document.getElementById('email').value,
+          Subject : document.getElementById('subject').value,
+          //Body : document.getElementById('message').value 
+          Body: bodyy  
+        }).then(function(response){
+           if (response == 'OK') {
+               alert("Mail sent succeessfully");
+            } else {
+                throw new Error("Error: " + response.statusText);
+            }
+         });
+
+    }
+
+
 // This example adds a marker to indicate the position of GLA University,
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {

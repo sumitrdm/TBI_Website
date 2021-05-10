@@ -144,12 +144,13 @@
     .main-menu ul > li a {padding: 11px 11px; font-size: 13px;}
     .mean-last {margin-right: 43px !important;}
     .mean-last a {
-    padding: 0px 10px;     font-size: 13px;
+    padding: 0px 10px;     
+    font-size: 13px; 
 
 }
 }
  @media (min-width: 992px) and (max-width: 1199px) {
-      .mean-last {display: none !important;}
+      .mean-last {display: block !important;}
       .logo {
    padding-bottom: 6px;
     
@@ -181,7 +182,7 @@
    padding-bottom: 6px;
     
 }
-     .mean-last {display: none !important;}
+     .mean-last {display: block !important;}
     
      .main-menu ul>li a {
              padding: 8px 2px;
@@ -276,7 +277,9 @@ max-width: 122px;
 
 }
    .header {background: #efefef; padding: 20px 0px 20px 0px;}
-     .mean-last {display: none !important;}
+     .mean-last {
+         display: block !important;
+        }
      .text-bg h1 {padding-top: 0px;}
      .text-img {
         padding-top: 30px;
@@ -331,9 +334,9 @@ max-width: 122px;
      .menu-area-main li.active a {
         background: inherit;
     }
-    .mean-last {display: none !important;}
-    .mean-container .mean-bar {margin-top: 15px;}
-    .menu-area {padding-right: 0px}
+    .mean-last {display: block !important;} 
+    .mean-container .mean-bar {margin-top: 15px;} 
+    .menu-area {padding-right: 0px};
      .text-bg h1 {
          padding-top: 80px;
          font-size: 31px;
