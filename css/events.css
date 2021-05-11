@@ -1671,11 +1671,9 @@ ul.loca li a {
 {
     margin: auto;  /*center ke lie dev*/
     width: 20%;
-    border: 3px solid navy;
     padding: 10px;
-     text-align: center;
-     margin-bottom: 20px;    
-
+    text-align: center;
+    margin-bottom: 20px;    
 }
 .yellow
 {
@@ -1685,6 +1683,8 @@ ul.loca li a {
     margin-right: 10px;
     border-radius: 50%;
     display: inline-block;
+    margin-top: 20px;
+
 
 }
 
