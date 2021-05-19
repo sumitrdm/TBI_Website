@@ -1801,9 +1801,22 @@ background: #f3a712!important;
 }
 
 .conti{
-    margin-top: 150px;
+    margin-top: 60px;
 }
+.s-heading
+{
+    text-align: center;
+}
+.s-heading h1
+{
+    
+    color: #13aaeb;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 100px;
 
+}
 
 
 

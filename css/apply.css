@@ -1743,9 +1743,23 @@ box-shadow: 2px 0px 3px 0px rgba(158,157,157,0,0.75);
 }
 
 .conti{
-    margin-top: 150px;
+    margin-top: 60px;
 }
 
+.s-heading
+{
+    text-align: center;
+}
+.s-heading h1
+{
+    
+    color: #13aaeb;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 100px;
+
+}
 
 
 @media (min-width:1006px) and (max-width:1175px)
@@ -1781,6 +1795,7 @@ box-shadow: 2px 0px 3px 0px rgba(158,157,157,0,0.75);
 
 
 
+    
 
 
 .eventtxt

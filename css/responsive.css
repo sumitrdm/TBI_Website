@@ -138,7 +138,7 @@
      margin-top: 0px;
 }
     .text-bg h1{
-        font-size: 66px;
+        font-size: 30px;
     }
    
     .main-menu ul > li a {padding: 11px 11px; font-size: 13px;}
@@ -161,8 +161,9 @@
      
      .text-bg h1 {
         
-         font-size: 43px;
+         /* font-size: 43px; */
          line-height: 54px;
+        font-size:30px;
          padding-bottom: 10px;
     }
      .text-bg span {
@@ -197,7 +198,7 @@
      ul.social_link {padding-bottom: 0px;}
      .text-bg h1 {
          padding-top: 0px;
-         font-size: 38px;
+         font-size: 30px;
         line-height: 48px;
          padding-bottom: 18px;
     }
@@ -280,7 +281,7 @@ max-width: 122px;
      .mean-last {
          display: block !important;
         }
-     .text-bg h1 {padding-top: 0px;}
+     .text-bg h1 {padding-top: 30px;}
      .text-img {
         padding-top: 30px;
     }

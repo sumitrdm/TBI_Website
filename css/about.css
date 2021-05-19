@@ -1653,14 +1653,18 @@ ul.loca li a {
 
 /*My cSS*/
 
-.head h2
+.head h1
 {
 font-family:Open Sans;
-font-size: 45px;
 color:#13aaeb;
 text-align: center;
 position: relative;
 margin-bottom: 50px;
+font-size: 3rem;
+font-weight: 400;
+letter-spacing: 1px;
+margin-top: 80px;
+
     
 }
 .img-wrap
