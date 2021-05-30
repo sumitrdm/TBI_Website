@@ -1656,7 +1656,7 @@ ul.loca li a {
 .head h1
 {
 font-family:Open Sans;
-color:#13aaeb;
+color:#f4b328 ;
 text-align: center;
 position: relative;
 margin-bottom: 50px;
@@ -1664,9 +1664,10 @@ font-size: 3rem;
 font-weight: 400;
 letter-spacing: 1px;
 margin-top: 80px;
-
-    
+font-weight:400; 
 }
+
+
 .img-wrap
 {
     width:100%;

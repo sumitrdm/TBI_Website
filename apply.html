@@ -68,7 +68,7 @@
                       <li> <a href="acheivements.html">Acheivements</a> </li>
                       <li> <a href="apply.html">Apply now</a> </li>
                       <li> <a href="contact.html">Contact us</a> </li>
-                      <li> <a href="gallary.html">Gallery</a> </li>
+                      <li> <a href="gallary.html">Startups</a> </li>
                       <!-- <li><a href="events.html">Events</a></li> -->
 
                       </ul>
@@ -88,7 +88,7 @@
  </header>
 
  <div class="s-heading">
-  <h1>Apply Now</h1>
+  <h1 class="text-center">APPLY <span style="color:#13aaeb; font: weight 400px; ">NOW!</span></h1>
 </div>
 
 
@@ -142,13 +142,9 @@
                                         <button class="main-btn" type="submit" onclick="send(event)">Send</button>
                                        </div>
                                        </div>
-               
-       
-                                       
+                                                      
                                     </div>
-  
-  
-  
+
            </form>
   
        </div>
@@ -193,7 +189,7 @@
             <div class="col-md-12">
               <form class="news">
                 <input class="newslatter" placeholder="Email" type="text" name=" Email">
-                <button class="submit">Subscribe</button>
+                <button class="submit" onclick="myfunc()">Subscribe</button>
               </form>
             </div>
             <div class="col-md-12">
@@ -259,7 +255,10 @@
 
           <script>
 
-function send(event) {
+            function myfunc(){
+              alert("Successfully Suscribed!!");
+            }
+          function send(event) {
         event.preventDefault();
         var name = document.getElementById('name').value
         var email = document.getElementById('email').value

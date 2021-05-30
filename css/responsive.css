@@ -177,6 +177,7 @@
         padding: 10px 30px 30px 15px;
     }
     .text-bg a {max-width: 150px;}
+    .text-bg .anc{max-width: 300px;}
 }
  @media (min-width: 768px) and (max-width: 991px) {
     .logo {
@@ -229,6 +230,12 @@ padding: 10px 7px;
 font-size: 13px;
 max-width: 122px;
     }
+    .text-bg .anc{
+        margin-right: 5px;
+        padding: 10px 7px;
+        font-size: 13px;
+        max-width: 250px;}
+
      
     .important_bg .important_box h3 {
         font-size: 39px;
@@ -352,6 +359,11 @@ max-width: 122px;
     .text-bg a {
         margin-right: 3px;
         max-width: 102px;
+        font-size: 13px;
+    }
+    .text-bg .anc {
+        margin-right: 3px;
+        max-width: 205px;
         font-size: 13px;
     }
     .images_box {margin-top: 30px;}

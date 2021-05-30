@@ -1657,15 +1657,36 @@ ul.loca li a {
 .ik
 {
     font-size: 45px;
-    color:#13aaeb;
+    color:#f4b328;
     margin-top: 80px;
     margin-bottom:30px;
+    font-weight: 400px;
 }
 
 
 
-
-
+.anc
+{
+    
+        position: relative;
+            top:50px;
+            left:900px;
+        display: block;
+        margin-top:12px;
+        font-size: 16px;
+        border: #f4b328 solid 1px;
+        background-color: #f4b328;
+        color: #fff;
+        padding: 9px 0px;
+        max-width: 350px;
+        width: 100%;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 30px;
+        margin-right: 10px;
+        
+    
+}
 .eventtxt
 {
     margin:20px;

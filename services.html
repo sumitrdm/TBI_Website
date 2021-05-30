@@ -68,7 +68,7 @@
                       <li> <a href="acheivements.html">Acheivements</a> </li>
                       <li> <a href="apply.html">Apply now</a> </li>
                       <li> <a href="contact.html">Contact us</a> </li>
-                      <li> <a href="gallary.html">Gallery</a> </li>
+                      <li> <a href="gallary.html">Startups</a> </li>
                       <!-- <li><a href="events.html">Events</a></li> -->
 
                       </ul>
@@ -92,7 +92,7 @@
 <!--my html--> 
  
 <div class="headingg">
-  <h1 class="heading">Our Services</h1>
+  <h1 class="heading text-center">OUR <span style="color:#13aaeb; font: weight 400px; ">SERVICES</span></h1>
 
 
 
@@ -224,7 +224,7 @@
             <div class="col-md-12">
               <form class="news">
                 <input class="newslatter" placeholder="Email" type="text" name=" Email">
-                <button class="submit">Subscribe</button>
+                <button class="submit" onclick="myfunc()">Subscribe</button>
               </form>
             </div>
             <div class="col-md-12">
@@ -288,6 +288,9 @@
 
 
           <script>
+            function myfunc(){
+              alert("Successfully Suscribed!!");
+            }
 // This example adds a marker to indicate the position of GLA University,
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {

@@ -1704,13 +1704,16 @@ ul.loca li a {
 .s-heading h1
 {
     
-    color: #13aaeb;
+    color: #f4b328;
     font-size: 3rem;
     font-weight: 400;
     letter-spacing: 1px;
     margin-top: 100px;
+    font-weight: 400px;
 
 }
+
+
 
 
 /*My responsiveness*/
