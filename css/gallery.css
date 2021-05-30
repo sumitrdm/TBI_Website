@@ -1816,10 +1816,13 @@ ul.loca li a {
 
 
 @media screen and (max-width:768px){
+
     .blog-post{
         padding: 1.5rem;
         flex-direction: column;
     }
+  
+
     #impoh1
     {
         font-size: 2rem;
@@ -1841,7 +1844,9 @@ ul.loca li a {
     {
         max-width: 100%;
         min-width: 100%;
-        transform: translate(0,-8rem);
+        /* transform: translate(0,-8rem); */
+         transform: translate(0,0.01rem);
+
     }
  
 
