@@ -1652,7 +1652,14 @@ ul.loca li a {
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
 
 
-
+.levent{
+    margin-top:45px;
+    width: 200px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    
+    } 
 
 
 
@@ -1757,7 +1764,7 @@ box-shadow: 2px 0px 3px 0px rgba(158,157,157,0,0.75);
     font-size: 3rem;
     font-weight: 400;
     letter-spacing: 1px;
-    margin-top: 100px;
+    margin-top: 50px;
     font-weight:400px;
 
 }

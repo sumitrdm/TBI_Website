@@ -1654,11 +1654,19 @@ ul.loca li a {
 
 /*My cSS*/
 
+.levent{
+    margin-top:45px;
+    width: 200px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    
+    } 
 .ik
 {
     font-size: 45px;
     color:#f4b328;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-bottom:30px;
     font-weight: 400px;
 }

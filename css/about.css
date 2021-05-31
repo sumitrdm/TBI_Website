@@ -1653,24 +1653,21 @@ ul.loca li a {
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
 
 /*My cSS*/
-
+ 
 .levent{
-margin-top:20px;
+margin-top:45px;
 width: 200px;
-position: absolute;
-top: 70px;
-right:0px;
-/*float: right;*/
-/* position: absolute;
-top: 80px; */
+display: flex;
+justify-content:flex-end;
+align-items: flex-end;
 
-}
+} 
 .head h1
 {
 text-align: center;
 position: relative;
 margin-bottom: 50px;
-margin-top: 80px;
+margin-top: 50px;
 font-weight:400; 
 color: #f4b328;
 font-size: 3rem;

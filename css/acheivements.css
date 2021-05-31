@@ -1652,7 +1652,14 @@ ul.loca li a {
 /*--------------------------------------------------------------------- ener page css ---------------------------------------------------------------------*/
 
 /*My cSS*/
-
+.levent{
+    margin-top:45px;
+    width: 200px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    
+    } 
 .container
 {
     display: flex;
@@ -1727,7 +1734,7 @@ ul.loca li a {
     font-size: 3rem;
     font-weight: 400;
     letter-spacing: 1px;
-    margin-top: 80px;
+    margin-top: 50px;
     font-weight:400;    
 
 }

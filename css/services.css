@@ -1654,11 +1654,18 @@ ul.loca li a {
 /*My cSS*/
 
 
-
+.levent{
+    margin-top:45px;
+    width: 200px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    
+    } 
 
  .headingg h1
 {   
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 3rem;
     text-transform: uppercase;
     color:#f4b328;

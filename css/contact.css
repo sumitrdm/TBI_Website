@@ -1814,10 +1814,20 @@ background: #f3a712!important;
     font-size: 3rem;
     font-weight: 400;
     letter-spacing: 1px;
-    margin-top: 100px;
+    margin-top: 50px;
     font-weight:400px;
 
 }
+
+
+.levent{
+    margin-top:45px;
+    width: 200px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    
+    } 
 
 
 
