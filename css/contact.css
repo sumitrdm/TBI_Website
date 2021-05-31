@@ -22,7 +22,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: #8fd9a8;
+    background-color: #e4efe7;
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.80857;
@@ -1822,39 +1822,6 @@ background: #f3a712!important;
 
 
 
-.eventtxt
-{
-    margin: 20px;
-    width:300px;
-    height:300px;
-  
-}
-
-.boxie
-{
-    text-align: center;
-    border-radius: 10px;
-    padding: 20px 25px;
-    box-sizing: border-box;
-    margin: 20px;
-    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
-    position: relative;
-    background-color: #fff;
-
-}
-.boxie a
-{
-
-    font-size: 20px;
-    margin: 0;
-    color:#02075d;
-    text-align: center;   
-}
-.boxie a:hover
-{
-    color:#ad2101;
-
-} 
 
 
 
