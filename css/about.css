@@ -1660,7 +1660,6 @@ width: 200px;
 display: flex;
 justify-content:flex-end;
 align-items: flex-end;
-
 } 
 .head h1
 {
@@ -1698,7 +1697,7 @@ box-shadow: 0 0 10px #999999;
 
 p {
     text-align: justify;
-    font-size: 18px;
+    font-size: 16px;
 
 }
 .par
